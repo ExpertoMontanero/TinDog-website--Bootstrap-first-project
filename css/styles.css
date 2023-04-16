@@ -2,7 +2,7 @@
 
 h1 {
     font-family: "Montserrat";
-    font-weight: 900;
+    font-weight: 800;
     line-height: 1.5;
     font-size: 3.5rem;
     color: #fff;
@@ -25,6 +25,7 @@ h3 {
 p {
     font-family: "Montserrat";
     color: #8f8f8f;
+    font-weight: 500;
 }
 
 /* HEADER AND NAVBARD  SECTION */
@@ -60,11 +61,10 @@ p {
     margin-left: 80px;
 }
 
-@media only screen and (max-width: 1000px){
-.title-img
-{
-    margin-top:50px;
-}
+@media only screen and (max-width: 1000px) {
+    .title-img {
+        margin-top: 50px;
+    }
 }
 
 .btn {
@@ -120,9 +120,88 @@ p {
 
 .press-logo {
     width: 15%;
-    margin: 20px 20px 50px;
+    margin: 20px 20px 30px;
+}
+/* PRICING AND CARDS SECTION*/
+
+#pricing{
+    text-align: center;
 }
 
+#pricing-header-text{
+    color: black;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+#pricing-sub-text{
+    margin-bottom: 3rem;
+}
+/* CARDS SECTION */
+
+.sub-price-label {
+    color: black;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.sign-up-button{
+  width:250px;
+}
+
+.sign-up-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.container-fluid-cards{
+    text-align: center;
+    overflow: hidden;
+    padding: 3% 25%;
+}
+
+.card-header{
+    padding-top:1rem ;
+}
+
+.month-text{
+    color:#8f8f8f
+}
+
+/* CTA SECTION*/
+#cta{
+    background-color: #ff4c68;
+    padding: 5% 22%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cta-button{
+    margin: 2rem 1rem;
+    text-align: center;
+    height: 3rem;
+    width:10rem;
+    font-weight:700;
+    font-size: 1.2rem;
+}
+
+/* FOOTER SECTION*/
+
+#footer{
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.copyright-text{
+    font-weight: 600;
+    padding-bottom: 5rem;
+}
+
+.footer-icon{
+    margin: 2rem 0.5rem;
+
+}
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif;

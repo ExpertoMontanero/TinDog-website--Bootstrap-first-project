@@ -46,6 +46,7 @@ p {
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
+    font-weight: 500;
 }
 
 .nav-link {
@@ -110,6 +111,10 @@ p {
     color: #fff;
 }
 
+.carousel-item{
+    padding: 4% 15%;
+}
+
 /* PRESS SECTION */
 
 #press {
@@ -139,6 +144,10 @@ p {
     margin-bottom: 3rem;
 }
 /* CARDS SECTION */
+
+.card{
+    margin: 0 2rem 2rem 0;
+}
 
 .sub-price-label {
     color: black;
@@ -201,6 +210,10 @@ p {
 .footer-icon{
     margin: 2rem 0.5rem;
 
+}
+
+.xd{
+    align-items: center;
 }
 /*
 font-family: 'Montserrat', sans-serif;

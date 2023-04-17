@@ -1,15 +1,16 @@
 /* GENERAL FONTS */
+body {
+    font-family: "Montserrat", sans-serif;
+}
 
 h1 {
-    font-family: "Montserrat";
     font-weight: 800;
-    line-height: 1.5;
     font-size: 3.5rem;
+    line-height: 1.5;
     color: #fff;
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
@@ -17,13 +18,11 @@ h2 {
 }
 
 h3 {
-    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
 }
 
 p {
-    font-family: "Montserrat";
     color: #8f8f8f;
     font-weight: 500;
 }
@@ -51,7 +50,6 @@ p {
 
 .nav-link {
     margin: 0 2rem;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
 }
 
@@ -62,9 +60,17 @@ p {
     margin-left: 80px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1028px) {
     .title-img {
         margin-top: 50px;
+        transform: rotate(0deg);
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 1028px) {
+    #title {
+        text-align: center;
     }
 }
 
@@ -108,11 +114,10 @@ p {
 }
 
 .testimonial-image-description {
-    font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
 
-.carousel-item{
+.carousel-item {
     padding: 4% 15%;
 }
 
@@ -128,25 +133,27 @@ p {
     width: 15%;
     margin: 20px 20px 30px;
 }
+
 /* PRICING AND CARDS SECTION*/
 
-#pricing{
+#pricing {
     text-align: center;
 }
 
-#pricing-header-text{
+#pricing-header-text {
     color: black;
     font-weight: 800;
     font-size: 3rem;
     margin-top: 5rem;
 }
 
-#pricing-sub-text{
+#pricing-sub-text {
     margin-bottom: 3rem;
 }
+
 /* CARDS SECTION */
 
-.card{
+.card {
     margin: 0 2rem 2rem 0;
 }
 
@@ -156,66 +163,63 @@ p {
     font-weight: 800;
 }
 
-.sign-up-button{
-  width:250px;
+.sign-up-button {
+    width: 250px;
 }
 
-.sign-up-button:hover{
+.sign-up-button:hover {
     background-color: white;
     color: black;
 }
 
-.container-fluid-cards{
+.container-fluid-cards {
     text-align: center;
     overflow: hidden;
     padding: 3% 25%;
 }
 
-.card-header{
-    padding-top:1rem ;
+.card-header {
+    padding-top: 1rem;
 }
 
-.month-text{
-    color:#8f8f8f
+.month-text {
+    color: #8f8f8f
 }
 
 /* CTA SECTION*/
-#cta{
+#cta {
     background-color: #ff4c68;
     padding: 5% 22%;
     overflow: hidden;
     text-align: center;
 }
 
-.cta-button{
+.cta-button {
     margin: 2rem 1rem;
     text-align: center;
     height: 3rem;
-    width:10rem;
-    font-weight:700;
+    width: 10rem;
+    font-weight: 700;
     font-size: 1.2rem;
 }
 
 /* FOOTER SECTION*/
 
-#footer{
+#footer {
     margin-top: 8rem;
     text-align: center;
 }
 
-.copyright-text{
+.copyright-text {
     font-weight: 600;
     padding-bottom: 5rem;
 }
 
-.footer-icon{
+.footer-icon {
     margin: 2rem 0.5rem;
-
 }
 
-.xd{
-    align-items: center;
-}
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif;
